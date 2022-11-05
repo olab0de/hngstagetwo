@@ -33,6 +33,7 @@ function App() {
           <Button id='book__python' href='https://books.zuri.team/python-for-beginners?ref_id=olabodeadeyemi48'>Python Books</Button>
           <Button id='pitch' href='https://background.zuri.team'>Background Check for Coders</Button>
           <Button id='book__design' href='https://books.zuri.team/design-rules '>Design Books</Button>
+          <Button href='/contact'>Contact Me</Button>
 
           <div className='sec-btm'>
             <div className='sec-btm-img'>
