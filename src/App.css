@@ -109,6 +109,24 @@ footer {
     height: 32px;
 }
 
+.btn {
+    text-decoration: none;
+    display: block;
+    padding: 24px 0;
+    width: 100%;
+    text-align: center;
+    color: #101828;
+    background-color:#EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    cursor: pointer;
+    
+  }
+
 
 
 @media  screen and (max-width: 690px) {

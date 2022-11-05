@@ -79,7 +79,7 @@ export default function Contact() {
                         </div>
 
                         <div className="submit-btn">
-                            <input id= 'btn_submit' type='submit' value='Send message'/>
+                            <input id= 'btn__submit' type='submit' value='Send message'/>
                         </div>
 
                     </form>
@@ -91,7 +91,6 @@ export default function Contact() {
                        <img src={zuri} alt='zuri' className='zuri'/>
                        <p>HNG Intership 9 Frontend Task</p>
                        <img src={ing} alt="ingressive for good" className='ingressive'/>
-
                    </div>
                 </footer>
 

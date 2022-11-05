@@ -1,4 +1,5 @@
 import './App.css';
+import { Link } from 'react-router-dom';
 import Button from './components/button';
 import profileimage from './images/profile__img.png'
 import gitimage from './images/Icon.png'
@@ -27,13 +28,14 @@ function App() {
         </header>
 
         <section>
-          <Button href='https://twitter.com/olab0de'>Twitter Link</Button>
-          <Button id='btn__zuri' href='https://training.zuri.team/'>Zuri Team </Button>
-          <Button id='books' href='http://books.zuri.team'>Zuri Books</Button>
-          <Button id='book__python' href='https://books.zuri.team/python-for-beginners?ref_id=olabodeadeyemi48'>Python Books</Button>
-          <Button id='pitch' href='https://background.zuri.team'>Background Check for Coders</Button>
-          <Button id='book__design' href='https://books.zuri.team/design-rules '>Design Books</Button>
-          <Button href='/contact'>Contact Me</Button>
+          <Button href='https://twitter.com/olab0de' external={true} >Twitter Link</Button>
+          <Button id='btn__zuri' href='https://training.zuri.team/' external={true}>Zuri Team </Button>
+          <Button id='books' href='https://books.zuri.team'external={true}>Zuri Books</Button>
+          <Button id='book__python' href='https://books.zuri.team/python-for-beginners?ref_id=olabodeadeyemi48' external={true}>Python Books</Button>
+          <Button id='pitch' href='https://background.zuri.team' external={true}>Background Check for Coders</Button>
+          <Button id='book__design' href='https://books.zuri.team/design-rules ' external={true}>Design Books</Button>
+          <Button id='contact' href='/contact'>Contact Me</Button>
+          
 
           <div className='sec-btm'>
             <div className='sec-btm-img'>
