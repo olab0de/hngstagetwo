@@ -1,9 +1,10 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export default function Button(props) {
     return (
-        <a id={props.id} className='btn' href={props.href}>
+        <Link id={props.id} className='btn' to={props.href}>
             {props.children}
-        </a>
+        </Link>
     )
 }
