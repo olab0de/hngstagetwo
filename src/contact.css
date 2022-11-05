@@ -202,6 +202,7 @@ textarea {
   .container input:checked ~ .checkmark {
     background-color: white;
     border: 1px solid #1570EF;
+    box-shadow: none;
   }
   
   /* Create the checkmark/indicator (hidden when not checked) */
