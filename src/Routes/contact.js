@@ -32,7 +32,7 @@ export default function Contact() {
                     <form onSubmit={handleSubmit}>
                         <div className="fn-ln">
                           <div className="fn">
-                            <label for='first_name' className="firstname">First name</label>
+                            <label htmlFor='first_name' className="firstname">First name</label>
                             <input 
                             type='text' 
                             id='first_name' 
@@ -41,7 +41,7 @@ export default function Contact() {
                           </div>
 
                           <div className="ln">
-                            <label for='last_name' className="lastname">Last name</label>
+                            <label htmlFor='last_name' className="lastname">Last name</label>
                             <input
                             type='text' 
                             id='last_name'
@@ -52,7 +52,7 @@ export default function Contact() {
                         
 
                         <div className="em" >
-                            <label for='email' className="email">Email</label>
+                            <label htmlFor='email' className="email">Email</label>
                             <input
                              type='email'
                              id='email'
@@ -61,7 +61,7 @@ export default function Contact() {
                         </div>
 
                         <div className="txt-area">
-                            <label className="message">Message</label>
+                            <label htmlFor="message" className="message">Message</label>
                             <textarea 
                             id='message'
                             onChange={handleTxtChange} 
