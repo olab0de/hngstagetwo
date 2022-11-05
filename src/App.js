@@ -34,7 +34,7 @@ function App() {
           <Button id='book__python' href='https://books.zuri.team/python-for-beginners?ref_id=olabodeadeyemi48' external={true}>Python Books</Button>
           <Button id='pitch' href='https://background.zuri.team' external={true}>Background Check for Coders</Button>
           <Button id='book__design' href='https://books.zuri.team/design-rules ' external={true}>Design Books</Button>
-          <Button id='contact' href='/contact'>Contact Me</Button>
+          <Button id='contact' href='/contact' external={false}>Contact Me</Button>
           
 
           <div className='sec-btm'>
